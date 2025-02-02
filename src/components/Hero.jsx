@@ -50,7 +50,7 @@ const Hero = () => {
           width: "100%",
           height: "100%",
           duration: 1,
-          ease: "power1.inOut",
+          ease: "power1.out",
           onStart: () => nextVideoRef.current.play(),
         });
         gsap.from("#current-video", {
